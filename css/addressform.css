@@ -1,0 +1,91 @@
+body{
+   background-color: #fff;
+}
+form{
+	border-top:2px solid #32c24d;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.defined{
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	margin: 0.2em 0;
+}
+.defined>.input{
+	width: 21%;
+	margin: 0 0.1em;
+}
+.defined>.input:nth-child(2){
+	width: 28%;
+}
+.defined .input__field--nao{
+	color: #999 !important;
+}
+.input{
+	height: 50px;
+	width: 70%;
+	margin: 0em 1em;
+}
+.input__field{
+	margin-top: 0em;
+	font-size: 16px;
+	font-weight: normal;
+}
+.input__field--nao{
+	color: #000;
+}
+.input__label--nao{
+	
+}
+.input:nth-child(2){
+	height: 100%;
+}
+.input__label{
+	font-weight: normal;
+	margin-top: 0.5em;
+}
+.input__label-content{
+	padding:0;
+	font-size: 16px;
+}
+.graphic--nao{
+	stroke: #34c24d;
+}
+.input__field--nao:focus + .input__label--nao,
+.input--filled .input__label--nao {
+	color: #34c24d;
+}
+
+.input__field--nao:focus ~ .graphic--nao,
+.input--filled .graphic--nao {
+	stroke: #333;
+}
+input[type="submit"]{
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	border:1px solid #32c24d;
+	background-color: #32c34d;
+	color: #fff;
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.2);
+}
+input[type="submit"]:hover{
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.5);
+}
+.loadme{
+	position: fixed;
+	top: 0;
+	background-image: url('../loader.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	z-index: 9999;
+	background-color: rgb(255,255,255);
+	opacity: 0.8;
+}

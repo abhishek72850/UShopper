@@ -1,0 +1,96 @@
+.cat-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cat-head>div>span{
+	margin-right: 10px;
+	font-size: 14px;
+}
+.cat-head>div>select{
+	height: 30px;
+	width: 120px;
+	text-align: center;
+}
+.cat-body{
+	display: flex;
+	justify-content: flex-start;
+	padding: 20px;
+}
+.store-container{
+	display: inline-flex;
+	width: 45%;
+	flex-direction: column;
+	height: 250px;
+	border-radius: 2px;
+	margin: 10px 2.5% 10px 2.5%;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+	background-color: #f7f7f7;
+	background-size: 100%;
+	background-blend-mode:overlay;
+	background-position: 50% 50%;
+}
+.store-container>div>*{
+	color: #000;
+}
+.store-container>div:first-child{
+	width: 100%;
+	height: 75%;
+	padding: 20px 10px 10px 20px;
+}
+.store-container>div:first-child>h3{
+	font-size: 2em;
+	font-weight: normal;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.store-container>div:first-child>span:nth-child(2){
+	margin-left: 0px;
+	display: inline-block;
+}
+.store-container>div:first-child>address{
+	margin: 5px 0;
+	display: flex;
+	align-items: center;
+}
+.store-container>div:first-child>span:nth-child(4){
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.store-container>div:last-child{
+	width: 100%;
+  height: 25%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px solid #ccc;
+	margin: 0 0;
+}
+.store-container>div:last-child>input{
+	position: static;
+	color: #000;
+	border: 1px solid #ccc;
+	height: 40px;
+	width: 40%;
+	border-radius: 2px;
+	font-size: 14px;
+	background-color: rgba(255,255,255,0.5);
+}
+.store-container>div:last-child>input:first-child:hover{
+	color: #34c24d;
+	border: 1px solid #34c24d;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+}
+.store-container>div:last-child>input:last-child:hover{
+  border: 1px solid #000;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+}
+.store-container>div:last-child>input:first-child::selection{
+	background-color: #f00;
+}
+.wishlist-no-item{
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 3em;
+}

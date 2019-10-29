@@ -1,0 +1,10 @@
+rgb(50,194,77);
+COLOR="#32C24D"
+
+google geoloc api key 2:  AIzaSyBfd6RgHCraF0E8u5Bf5yOt9QPWRhY3TWs 
+
+google map api :  AIzaSyCxdAJfjpBW6b9rYCaiTV6HrnsRCL2mMOk
+
+ Google Gmail client ID: 121236725744-jfdnq5t73hc29ur7ra9m8civc6v0u2ke.apps.googleusercontent.com 
+
+ Google gmail Client Secret: 9klF9Zzo0cV5fh9mDND906vF 

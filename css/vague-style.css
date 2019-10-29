@@ -1,0 +1,10 @@
+@import url(//fonts.googleapis.com/css?family=Satisfy);
+body {
+	margin:0;
+} 
+.shop-blur {
+	width:100%;
+	height:100%;
+	background-size:cover;
+	position:absolute;
+}

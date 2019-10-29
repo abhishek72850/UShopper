@@ -1,0 +1,9 @@
+{
+	"images":{
+			"A":"./images/img_a.jpg",
+			"B":"./images/img_b.jpg",
+			"C":"./images/img_c.jpg",
+			"D":"./images/img_d.jpg",
+			"E":"./images/img_e.jpg"
+		}
+}

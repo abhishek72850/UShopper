@@ -1,0 +1,188 @@
+header{
+  box-shadow: none;
+}
+section{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+}
+section>div{
+  min-width: 70%;
+  padding: 0;
+  box-shadow: 0px -2px 5px rgba(0,0,0,.1);
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+section>div>span{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 2em;
+  color: #666;
+  background: -moz-repeating-linear-gradient(-40deg,#ccc,#fff .1em,#ccc .15em);
+
+}
+section>div>.cart-table{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+section>div>.cart-table>thead{
+  height: 50px;
+  color: #999999;
+  padding: 0 10px;
+  background-color: #f7f7f7;
+}
+section>div>.cart-table>thead>tr>th{
+  font-weight: normal;
+}
+section>div>.cart-table>thead>tr>th:first-child{
+  width: 10%;
+}
+section>div>.cart-table>thead>tr>th:nth-child(2){
+  width: 40%;
+  text-align: left;
+  padding-left: 10%;
+}
+section>div>.cart-table>thead>tr>th:nth-child(3){
+  width: 6%;
+}
+section>div>.cart-table>thead>tr>th:nth-child(4){
+  width: 8%;
+}
+section>div>.cart-table>thead>tr>th:nth-child(5){
+  width: 25%;
+}
+section>div>.cart-table>thead>tr>th:nth-child(6){
+  width: 11%;
+}
+section>div>.cart-table>tbody>tr{
+  position: relative;
+  height: 140px;
+  border-bottom:1px solid #ccc;
+}
+section>div>.cart-table>tbody>tr>td{
+  color: #666;
+  vertical-align: top;
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(1){
+  padding: 20px 0 0 10px;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(2),section>div>.cart-table>tbody>tr>td:nth-child(5){
+  padding: 20px 20px 0px 20px;
+  text-align: left;
+}
+section>div>.cart-table>tbody>tr>td:first-child>img{
+  background-color: #fff;
+  height: 90px;
+  width: 90px;
+  padding: 10%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
+}
+section>div>.cart-table>tbody>tr>td:nth-child(2)>div{
+  height: 90px;
+
+}
+section>div>.cart-table>tbody>tr>td:nth-child(2)>div>*{
+  font-size: 14px;
+  width: 100%;
+  display:inline-block;
+}
+
+section>div>.cart-table>tbody>tr>td:nth-child(2)>div>a>h3{
+  font-size: 18px;
+  font-weight: normal;
+  color: #555;
+  text-transform: capitalize;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(2)>div>a:hover{
+  text-decoration: underline;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(2)>a{
+  text-align: right;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  color: #00f;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(2)>a:hover{
+  text-decoration: underline;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(5)>h3{
+  font-size: 18px;
+  font-weight: normal;
+  color: #0d0;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(5)>span{
+  font-size: 14px;
+  color: #999;;
+}
+section>div>.cart-table>tbody>tr>td:nth-child(6){
+  font-size: 16px;
+  color: #000;
+  text-align: right;
+  padding-right:1.5em;
+}
+.no-cart{
+  font-size: 1.5em;
+}
+.no-cart>button{
+  margin: 0 10px;
+  height: 40px;
+  padding: 0 10px;
+  width: 20%;
+  border:none;
+  background-color: #34c24d;
+  color: #fff;
+  font-size: 0.7em;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+}
+section>div>.cart-table>tfoot{
+  height: 120px;
+  width: 100%;
+  background-color: #555;
+}
+section>div>.cart-table>tfoot>tr>td{
+  text-align: right;
+  padding-right: 20px;
+}
+section>div>.cart-table>tfoot>tr>td>input{
+  height: 45px;
+  width: 240px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #34c24d;
+  border: 1px solid #34c24d;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+section>div>.cart-table>tfoot>tr>td>input:hover{
+  background-color: #34b24d;
+}
+footer{
+  box-shadow: none;
+}
+.loadme{
+  position: absolute;
+  top: 0;
+  background-image: url('../loader.gif');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  left: 0;
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgb(255,255,255);
+  opacity: 0.8;
+}
